@@ -1,11 +1,14 @@
 #include<stdio.h>
 int Bin[100];
+int Number[3]={1,2,3};
 void print()
 {
 	int i;
 	for(i=0;i<3;i++)
 	{
-		printf("%d ",Bin[i]);
+		if(Bin[i]){
+			printf("%d ",Number[i]);
+		}
 	}
 	printf("\n");
 }
