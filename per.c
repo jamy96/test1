@@ -1,5 +1,6 @@
 #include<stdio.h>
-int Bin[100];
+//Edited in moon9607
+int Bin[1000];
 int Number[3]={1,2,3};
 void print()
 {
